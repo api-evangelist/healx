@@ -1,7 +1,17 @@
 aid: healx
-name: healx
-description: healx is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Healx
+description: >-
+  Healx is a Cambridge, UK clinical-stage biotechnology company that uses
+  artificial intelligence to discover and develop new treatments for rare
+  diseases. Its Healnet platform pairs generative AI with drug-discovery and
+  rare-disease expertise to build a biomedical knowledge graph from public and
+  proprietary sources - biomedical literature, disease and biochemical datasets,
+  clinical trials and patents - and to identify novel uses for known compounds.
+  Founded by David Brown and Tim Guilliams, Healx advances its own therapeutic
+  pipeline (including its NF1 lead candidate HLX-1502) and partners with pharma
+  companies such as Sanofi. Healx does not currently publish a public developer
+  API; this profile tracks its identity and public web surface in the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/healx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - balderton-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://healx.ai/android-icon-192x192.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Drug Discovery
+- Rare Diseases
+- Biotechnology
+- Healthcare
+- Life Sciences
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://healx.io/
+  url: https://healx.ai/
+- type: Blog
+  url: https://healx.ai/blog/
+- type: Support
+  url: https://healx.ai/contact/
+- type: PrivacyPolicy
+  url: https://healx.ai/privacy/
+- type: GitHubOrganization
+  url: https://github.com/healx
+- type: DomainSecurity
+  url: security/healx-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
